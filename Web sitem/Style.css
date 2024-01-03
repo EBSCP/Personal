@@ -1,0 +1,148 @@
+.image-container {
+    position: relative;
+    width: 50px; /* Resmin genişliği */
+    height: 50px; /* Resmin yüksekliği */
+    overflow: hidden;
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  
+.image-container img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; /* Geçiş efekti için */
+  }
+  
+.image-container:hover img {
+    transform: scale(1.2); /* Hover olduğunda resmi büyüt */
+  }
+  
+body {
+    background-color: rgb(71, 71, 219);
+  }
+h1 {
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+h3 {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.image {
+    border: solid 7px black;
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    border-radius: 250px;  
+  }
+.place{
+    width:450px;
+    float: left;
+    margin-top: 100px;
+    margin-right: 500px;
+    margin-left:100px;
+}
+
+.distance{
+    margin-top: 50px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:cornflowerblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .size{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0;
+  }
+
+  h1.animated-text {
+    font-size: 36px;
+    color: #ffcc00; /* Başlangıç rengi */
+    animation: textAnimation 2s infinite alternate; /* Animasyon süresi ve tipi */
+  }
+  
+  @keyframes textAnimation {
+    from {
+      color: #000000; /* Başlangıç rengi */
+      transform: translateY(0);
+    }
+    to {
+      color: #ffffff; /* Bitiş rengi */
+      transform: translateY(-5px); /* Yükselme miktarı */
+    }
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown butonunun stili */
+  .dropbtn {
+    background-color: #4c9ae8;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown içeriğinin görünmesi */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4c9ae8;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Dropdown içeriğindeki linklerin stili */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Link hover olduğunda rengini değiştir */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Dropdown içeriğinin görünmesini sağla */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
